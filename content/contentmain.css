@@ -1,0 +1,163 @@
+
+body{
+  font-family: sans-serif;
+  background-color: rgb(28, 28, 28);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(126, 8, 8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 0px 12px;
+
+}
+
+.navbar a:not(#lsd) {
+  font-family: 'helvetica', sans-serif;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-left: 2px solid #1c1c1c;
+  height: 45;
+  font-weight: bolder;
+}
+
+.navbar a:hover:not(#lsd), .navbar2 a:hover {
+  background: rgb(170, 65, 65);
+  color: white;
+}
+
+
+#lsd{
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+}
+#lsd:hover{
+  color: white;
+}
+
+.navbar p{
+  color: white;
+  float: left;
+  margin-left: 20px;
+  font-family: 'Nosifer', cursive;
+  margin-top: 4px;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+/*Actual Body Idhar Hain*/
+
+
+
+.main {
+  font-family: 'hevetica', sans-serif;
+  padding: 16px;
+  margin-top: 30px;
+  height: 3000px;
+  color: rgb(196, 196, 196);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+
+}
+
+.Booktext{
+  padding: 22px;
+}
+.main h3{
+  font-family: 'Oswald', sans-serif;
+  font-weight: bold;
+}
+.main p{
+  font-family: Roboto;
+  font-weight: bold;
+}
+.BookBox1{
+  color: rgb(134, 0, 0);
+  margin-top: 105px;
+  background-color: rgb(186, 186, 186);
+  border-radius: 22px;
+  box-shadow: 0px 0px 8px black;
+}
+.BookBox2{
+  color: rgb(134, 0, 0);
+  margin-top: 105px;
+  background-color: rgb(186, 186, 186);
+  border-radius: 22px;
+  box-shadow: 0px 0px 8px black;
+}
+
+.BookBox3{
+  color: rgb(134, 0, 0);
+  margin-top: 105px;
+  background-color: rgb(186, 186, 186);
+  border-radius: 22px;
+  box-shadow: 0px 0px 8px black;
+}
+
+#gutter{
+  text-decoration: none;
+  color: #306e32;
+}
+
+.BookBox4{
+  color: rgb(134, 0, 0);
+  margin-top: 105px;
+  background-color: rgb(186, 186, 186);
+  border-radius: 22px;
+  box-shadow: 0px 0px 8px black;
+}
+
+.btn{
+   padding: 12px;
+   font-family: Roboto;
+   background-color: #306e32;
+   border: none;
+   color: white;
+   box-shadow: 0px 0px 8px grey;
+   width: 120px;
+}
+.btn:hover{
+  background-color: #40ac43;
+  box-shadow: 0px 0px 7px grey;
+}
+.btn i{
+  margin-right: 8px;
+
+}
+
+/*Actual Body Idhar Hain*/
+
+.navbar2 {
+  overflow: hidden;
+  background-color: rgb(126, 8, 8);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+
+  box-shadow: 0px 0px 22px;
+}
+
+.navbar2 a {
+  font-family: 'helvetica', sans-serif;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  border-right: 2px solid #1c1c1c;
+  height: 45;
+  font-weight: bold;
+}
