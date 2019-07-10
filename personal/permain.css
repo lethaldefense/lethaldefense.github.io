@@ -1,0 +1,144 @@
+body{
+  font-family: sans-serif;
+  background-color: rgb(28, 28, 28);
+}
+
+#lsd{
+  text-decoration: none;
+  color: rgb(214, 214, 214);
+}
+
+.navbar p{
+  color: white;
+  float: left;
+  margin-left: 20px;
+  font-family: 'Nosifer', cursive;
+  margin-top: 4px;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(126, 8, 8);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 0px 12px;
+}
+
+.navbar a:not(#lsd) {
+  font-family: 'helvetica', sans-serif;
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-left: 2px solid #1c1c1c;
+  height: 45;
+  font-weight: bolder;
+
+}
+
+.navbar a:hover:not(#lsd), .navbar2 a:hover {
+  background: rgb(170, 65, 65);
+  color: white;
+}
+
+
+
+
+#lsd:hover{
+  color: white;
+}
+
+/*Actual Body Idhar Hain*/
+
+
+
+.main {
+  font-family: 'Roboto', sans-serif;
+  padding: 16px;
+  margin-top: 30px;
+  height: 1500px;
+  color: rgb(196, 196, 196);
+  width: auto;
+
+}
+.main h2{
+  font-family: 'Oswald', sans-serif;
+  font-size: 69px;
+  text-align: right;
+  color: white;
+}
+.main h3{
+  text-align: right;
+  font-size: 22px;
+}
+.contactbox{
+  margin-top: 300px;
+  padding: 22px;
+  background: radial-gradient(circle, rgba(99,99,99,1) 0%, rgba(41,41,41,1) 67%, rgba(38,38,38,1) 89%);
+  color: white;
+  box-shadow: 0px 0px 9px black;
+  border-radius: 44px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+
+}
+
+.contactbox h3{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  margin-top: 22px;
+  text-align: center;
+}
+.contactbox table tr th{
+  text-align: right;
+}
+.contactbox table{
+  margin-top: 30px;
+  width: 100%;
+  font-family: Tahoma;
+  font-weight: bold;
+}
+contactbox hr{
+  color: white;
+}
+table hr{
+  color: white;
+}
+/*Actual Body Idhar Hain*/
+
+
+
+.navbar2 {
+  overflow: hidden;
+  background-color: rgb(126, 8, 8);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+
+  box-shadow: 0px 0px 22px;
+}
+
+.navbar2 a {
+  font-family: 'helvetica', sans-serif;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+  border-right: 2px solid #1c1c1c;
+  height: 45;
+  font-weight: bold;
+}
