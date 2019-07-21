@@ -176,3 +176,39 @@ body{
     color: #ee6f6f;
   }
 }
+
+.footer__heart {
+    background-color: #dd2e44;
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    transform: rotate(-45deg);
+    animation: heartbeat 1s infinite;
+    display: inline-block;
+    margin: 0 1.5rem;
+}
+.footer__heart:after, .footer__heart:before {
+    content: "";
+    position: absolute;
+    background: #dd2e44;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%}
+.footer__heart:before {
+    top: -.6rem;
+    left: 0;
+}
+.footer__heart:after {
+    top: 0;
+    right: -.6rem;
+}
+@keyframes heartbeat {
+    0% {
+    transform: scale(1) rotate(-45deg);
+}
+  20% {
+    transform: scale(1.25) rotate(-45deg);
+}
+  40% {
+    transform: scale(1.5) rotate(-45deg);
+}
